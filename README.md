@@ -70,6 +70,12 @@ static/
 requirements.txt
 ```
 
+## Screenshots
+
+![Landing View](screenshots/1.png)
+
+![Question View](screenshots/2.png)
+
 ## Notes
 
 - BM25 index is in-memory and rebuilds on server restart (Chroma persists to disk automatically)
