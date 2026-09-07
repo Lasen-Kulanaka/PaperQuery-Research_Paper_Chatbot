@@ -54,18 +54,20 @@ A simple RAG-based chatbot that lets you upload research papers (PDFs) and ask q
 
 ## Project Structure
 
-└── app/
-    ├── ingestion/ # PDF loading and chunking
-    ├── retrieval/ # Vector store, keyword store, hybrid search
-    ├── generation/ # LLM clients (Gemini, Groq) and fallback router
-    ├── chains/ # RAG pipeline orchestration
-    ├── api/ # FastAPI routes
-    └── core/ # Configuration
-└── static
-    ├── index.html
-    ├── style.css
-    └── script.js
-└── requirements.txt
+```
+app/
+├── ingestion/     # PDF loading and chunking
+├── retrieval/     # Vector store, keyword store, hybrid search
+├── generation/    # LLM clients (Gemini, Groq) and fallback router
+├── chains/        # RAG pipeline orchestration
+├── api/           # FastAPI routes
+└── core/          # Configuration
+static/
+├── index.html
+├── style.css
+└── script.js
+requirements.txt
+```
 
 ## Notes
 
