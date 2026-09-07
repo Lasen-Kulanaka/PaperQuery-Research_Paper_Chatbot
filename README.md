@@ -61,7 +61,8 @@ app/
 ├── generation/    # LLM clients (Gemini, Groq) and fallback router
 ├── chains/        # RAG pipeline orchestration
 ├── api/           # FastAPI routes
-└── core/          # Configuration
+├── core/          # Configuration
+└── data/
 static/
 ├── index.html
 ├── style.css
