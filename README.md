@@ -62,7 +62,7 @@ app/
 ├── chains/        # RAG pipeline orchestration
 ├── api/           # FastAPI routes
 ├── core/          # Configuration
-└── data/
+└── data/          # Store ChromaDB data and uploaded files
 static/
 ├── index.html
 ├── style.css
